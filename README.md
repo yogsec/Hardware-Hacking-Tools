@@ -89,4 +89,58 @@
 
 ---
 
+# 3. Wireless & Radio Hacking Tools
+
+
+## 📡 Wi-Fi Hacking Tools
+- **[Aircrack-ng](https://www.aircrack-ng.org/)** – Suite for Wi-Fi penetration testing.
+- **[Wifite](https://github.com/derv82/wifite2)** – Automated Wi-Fi cracking tool.
+- **[Fern Wi-Fi Cracker](https://github.com/savio-code/fern-wifi-cracker)** – GUI tool for Wi-Fi auditing.
+- **[Reaver](https://github.com/t6x/reaver-wps-fork-t6x)** – WPS attack tool.
+- **[PixieWPS](https://github.com/wiire-a/pixiewps)** – Offline WPS attack tool.
+- **[Bettercap](https://www.bettercap.org/)** – Powerful network attack tool, including Wi-Fi attacks.
+- **[MDK3](https://github.com/wi-fi-analyzer/mdk3-master)** – Wi-Fi testing and deauthentication tool.
+- **[Kismet](https://www.kismetwireless.net/)** – Wireless network detection and monitoring.
+- **[Wigle.net](https://wigle.net/)** – Database for mapping Wi-Fi networks.
+
+## 📶 Bluetooth & BLE Hacking
+- **[Blue Hydra](https://github.com/pwnieexpress/blue_hydra)** – Bluetooth device scanner.
+- **[Bluesniff](https://github.com/andrewmichaelsmith/bluesniff)** – Bluetooth packet sniffer.
+- **[BtleJack](https://github.com/virtualabs/btlejack)** – Bluetooth Low Energy hijacking tool.
+- **[BLE CTF](https://github.com/hackgnar/ble_ctf)** – Bluetooth attack training tool.
+- **[Bleah](https://github.com/evilsocket/bleah)** – Bluetooth hacking framework.
+- **[BlueRanger](https://github.com/OJ/BlueRanger)** – Detect Bluetooth device distances.
+- **[Ubertooth One](https://greatscottgadgets.com/ubertoothone/)** – Open-source Bluetooth monitoring tool.
+
+## 📻 Software-Defined Radio (SDR) Hacking
+- **[GNU Radio](https://www.gnuradio.org/)** – Signal processing toolkit for SDR.
+- **[HackRF One](https://greatscottgadgets.com/hackrf/)** – Software-defined radio device for hacking.
+- **[RTL-SDR](https://www.rtl-sdr.com/)** – Cheap USB SDR receiver.
+- **[SDR# (SDRSharp)](https://airspy.com/download/)** – Popular SDR software.
+- **[GQRX](http://gqrx.dk/)** – Open-source SDR software.
+- **[BladeRF](https://nuand.com/)** – USB 3.0 SDR device for signal analysis.
+- **[Red Pitaya](https://www.redpitaya.com/)** – SDR and signal processing platform.
+- **[OsmoSDR](https://osmocom.org/projects/sdr/wiki/OsmoSDR)** – Open-source SDR framework.
+- **[RFExplorer](https://rfexplorer.com/)** – Portable RF spectrum analyzer.
+- **[GR-GSM](https://github.com/ptrkrysik/gr-gsm)** – GSM signal analysis tool.
+
+## 📡 RFID/NFC Hacking
+- **[Proxmark3](https://proxmark.com/)** – RFID/NFC research tool.
+- **[ChameleonMini](https://kasper-oswald.de/chameleonmini/)** – RFID emulator and cloning device.
+- **[Flipper Zero](https://flipperzero.one/)** – Multi-tool for wireless attacks, RFID cloning, and more.
+- **[MFCUK](https://github.com/nfc-tools/mfcuk)** – Tool for MIFARE Classic card attacks.
+- **[MFOC](https://github.com/nfc-tools/mfoc)** – MIFARE Classic offline cracking tool.
+- **[NFC Tools](https://www.wakdev.com/en/apps/nfc-tools.html)** – Mobile app for NFC analysis.
+- **[RFIDler](https://rfidler.com/)** – Software-defined RFID tool.
+- **[Libnfc](https://github.com/nfc-tools/libnfc)** – Library for NFC communication.
+- **[ICopy-X](https://icopyx.com/)** – RFID cloning and hacking device.
+
+## 📞 GSM & Mobile Network Hacking
+- **[OsmocomBB](https://osmocom.org/projects/baseband/wiki)** – Open-source GSM baseband software.
+- **[OpenBTS](https://github.com/RangeNetworks/openbts)** – Build your own GSM network.
+- **[IMSI Catcher](https://github.com/Oros42/IMSI-catcher)** – Detect IMSI catchers and rogue cell towers.
+- **[Stingray Detector](https://github.com/CellularPrivacy/Android-IMSI-Catcher-Detector)** – Mobile IMSI catcher detection.
+- **[SIMtrace](https://osmocom.org/projects/simtrace/wiki)** – Intercept SIM card communication.
+
+---
 
