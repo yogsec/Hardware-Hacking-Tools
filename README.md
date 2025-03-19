@@ -44,7 +44,7 @@
 
 ---
 
-# 2. 🔨 Physical Attacks Toolkit
+#🔨 Physical Attacks Toolkit
 
 ---
 
@@ -89,7 +89,7 @@
 
 ---
 
-# 3. Wireless & Radio Hacking Tools
+# Wireless & Radio Hacking Tools
 
 
 ## 📡 Wi-Fi Hacking Tools
@@ -143,4 +143,43 @@
 - **[SIMtrace](https://osmocom.org/projects/simtrace/wiki)** – Intercept SIM card communication.
 
 ---
+
+# 🔬 Chip-Level Attack Tools
+
+### 🏴‍☠️ 1. Chip Decapping & Microscopy
+- **[Razor Blade & Nitric Acid](https://en.wikipedia.org/wiki/Die_destruction)** – Basic method for removing chip packaging.
+- **[FIB (Focused Ion Beam)](https://en.wikipedia.org/wiki/Focused_ion_beam)** – High-end method for modifying IC structures.
+- **[Delayering Kits](https://www.microscopy-and-analysis.com/)** – Chemical solutions for peeling off IC layers.
+- **[Optical Microscopes](https://www.edmundoptics.com/)** – Inspecting chips post-decapping.
+- **[Scanning Electron Microscope (SEM)](https://www.thermofisher.com/)** – Advanced chip imaging.
+
+### ⚡ 2. Fault Injection & Glitching
+- **[ChipWhisperer](https://chipwhisperer.io/)** – Side-channel analysis and fault injection tool.
+- **[ChipSHOUTER](https://www.newae.com/chipshouter/)** – Electromagnetic fault injection (EMFI).
+- **[GlitchKit](https://github.com/gmbnomis/GlitchKit)** – Glitching framework for embedded systems.
+- **[VoltageGlitcher](https://github.com/astarasikov/VoltageGlitcher)** – Fault injection via voltage control.
+- **[SPIDriver](https://github.com/robotic-controls/spidriver)** – SPI communication and glitching.
+
+### 🔑 3. Power Analysis & Side-Channel Attacks
+- **[ChipWhisperer-Nano](https://wiki.newae.com/ChipWhisperer-Nano)** – Low-cost power analysis tool.
+- **[Riscure Inspector](https://www.riscure.com/security-tools/inspector-sca/)** – Commercial side-channel attack framework.
+- **[OpenADC](https://www.newae.com/chipwhisperer/)** – ADC-based power analysis module.
+- **[EM Probe](https://www.langer-emv.de/en/emc-probes/)** – Captures electromagnetic signals from chips.
+- **[Kocher’s DPA Toolkit](https://www.cryptography.com/publications/dpa.html)** – Differential Power Analysis (DPA) framework.
+
+### 🛡 4. Secure Chip Extraction & Key Recovery
+- **[Glitching AES Chips](https://github.com/sidechannel-aes-glitching)** – Bypassing AES protection via fault injection.
+- **[Voltage EMIF Fault Injection](https://www.emfi.eu/)** – Extracting keys via voltage spikes.
+- **[X-Ray Chip Inspection](https://www.hitachi-hightech.com/)** – Identifying hidden security fuses.
+- **[Laser Fault Injection](https://www.riscure.com/)** – Disrupting chip execution to leak data.
+
+### 📥 5. Firmware & ROM Dumping
+- **[JTAGulator](http://www.grandideastudio.com/jtagulator/)** – Identifying JTAG pinouts on unknown chips.
+- **[Flashrom](https://flashrom.org/)** – Dumping flash memory from ICs.
+- **[Bus Pirate](http://dangerousprototypes.com/docs/Bus_Pirate)** – Dumping firmware from SPI/I2C/UART chips.
+- **[Dediprog SF100](https://www.dediprog.com/products/SF100)** – High-speed SPI Flash programmer.
+- **[EEPROM Dumper](https://github.com/devttys0/firmware-analysis-toolkit)** – Extracting EEPROM contents.
+
+---
+
 
