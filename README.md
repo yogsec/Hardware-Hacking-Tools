@@ -182,4 +182,38 @@
 
 ---
 
+# 🔌 USB & Peripheral Attack Tools
+
+### 🏴‍☠️ 1. USB Exploitation & HID Attacks
+- **[Rubber Ducky](https://shop.hak5.org/)** – HID-based keystroke injection tool.
+- **[Bash Bunny](https://shop.hak5.org/)** – Advanced automation & attack payloads.
+- **[OMG Cable](https://o.mg.lol/)** – Malicious USB cable for remote access.
+- **[Evil Crow Cable](https://github.com/EvilCROW-Cables)** – Open-source keystroke injection.
+- **[Cactus WHID](https://github.com/whid-injector/WHID)** – USB HID injection with WiFi.
+- **[PHUKD/URFUKED](https://samy.pl/urfu/)** – HID-based payload execution.
+
+### 💾 2. USB Data Extraction & Exfiltration
+- **[USBHarpoon](https://github.com/0xdea/USBharpoon)** – Data exfiltration via USB.
+- **[USaBUSe](https://github.com/jkcvb/USaBUSe)** – Automated USB data theft.
+- **[USBExfil](https://github.com/usbexfil/usbexfil)** – Auto-copy data from plugged-in devices.
+
+### 🎭 3. USB Impersonation & Spoofing
+- **[P4wnP1 A.L.O.A.](https://github.com/RoganDawes/P4wnP1_aloa)** – USB attack framework (HID, WiFi, storage).
+- **[USBProxy](https://github.com/dominicgs/USBProxy)** – Man-in-the-Middle (MitM) for USB devices.
+- **[USBDriveBy](https://samy.pl/usbdriveby/)** – USB device emulation for bypassing security.
+- **[BadUSB](https://github.com/LaBlueFrog/badusb)** – Create malicious USB payloads.
+
+### 📡 4. USB Network Attacks
+- **[LAN Turtle](https://shop.hak5.org/)** – USB network implant for remote access.
+- **[Packet Squirrel](https://shop.hak5.org/)** – USB network sniffing and payload execution.
+- **[WiFi Pineapple](https://shop.hak5.org/)** – Rogue WiFi access point for network MITM.
+
+### 🔥 5. USB Firmware & Debugging Exploits
+- **[USBKill](https://github.com/hephaest0s/usbkill)** – Automatically disable a system when a USB device is removed.
+- **[USBlyzer](https://www.usblyzer.com/)** – USB protocol analyzer for debugging.
+- **[USBGuard](https://github.com/dkopecek/usbguard)** – Policy-based USB protection.
+- **[FaceDancer](https://github.com/usb-tools/Facedancer)** – USB attack framework for fuzzing & reversing.
+- **[GreatFET One](https://greatscottgadgets.com/greatfet/)** – USB debugging and analysis tool.
+
+---
 
