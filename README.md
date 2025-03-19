@@ -4,7 +4,7 @@
 
 ---
 
-### 1. Firmware Analysis & Extraction 🖥️
+# Firmware Analysis & Extraction 🖥️
 
 #### 🛠️ JTAG/SWD Debugging
 - **[JTAGulator](http://www.grandideastudio.com/jtagulator/)** – Identifies JTAG pinouts on embedded devices.
