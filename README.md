@@ -4,7 +4,7 @@
 
 ---
 
-### 1️⃣ Firmware Analysis & Extraction 🖥️
+### 1. Firmware Analysis & Extraction 🖥️
 
 #### 🛠️ JTAG/SWD Debugging
 - **[JTAGulator](http://www.grandideastudio.com/jtagulator/)** – Identifies JTAG pinouts on embedded devices.
@@ -43,4 +43,50 @@
 - **[Cutter](https://cutter.re/)** – GUI-based alternative to Radare2 for reverse engineering.
 
 ---
+
+# 2. 🔨 Physical Attacks Toolkit
+
+---
+
+## 🛠️ Side-Channel Attacks & Fault Injection
+- [**ChipWhisperer**](https://newae.com/) – Open-source side-channel analysis and fault injection tool.
+- [**ChipSHOUTER**](https://newae.com/chipshouter/) – Advanced electromagnetic fault injection (EMFI) tool.
+- [**GlitchKit**](https://github.com/hexanaut/glitchkit) – Tool for voltage glitching on embedded devices.
+- [**Raspberry Pi Pico + PicoEMP**](https://github.com/33Y0KHz/PicoEMP) – DIY EM fault injection tool.
+- [**OpenQASM**](https://github.com/Qiskit/openqasm) – Side-channel vulnerability analysis tool for quantum computing.
+- [**Riscure Inspector**](https://www.riscure.com/) – Commercial side-channel analysis tool.
+
+## 🔥 Voltage & Clock Glitching
+- [**GlitchKit**](https://github.com/hexanaut/glitchkit) – Software/hardware glitching toolkit.
+- [**ChipWhisperer-Lite**](https://newae.com/) – Hardware fault injection tool for glitching.
+- [**Proxmark3**](https://proxmark.com/) – RFID/NFC analysis and glitching attacks.
+- [**HackRF One**](https://greatscottgadgets.com/hackrf/) – SDR for RF glitching.
+
+## 🔩 Hardware Debugging & Tampering
+- [**JTAGulator**](http://www.grandideastudio.com/jtagulator/) – Finds JTAG pinouts for debugging.
+- [**Shikra**](https://int3.cc/products/the-shikra) – Works with JTAG, UART, and SPI.
+- [**Bus Pirate**](http://dangerousprototypes.com/docs/Bus_Pirate) – Multi-protocol debugging interface.
+- [**GoodFET**](https://github.com/travisgoodspeed/goodfet) – Open-source JTAG debugging tool.
+- [**OpenOCD**](http://openocd.org/) – Open-source JTAG/SWD debugging tool.
+- [**Black Magic Probe**](https://github.com/blacksphere/blackmagic) – Open-source debugging tool.
+
+## 🏴‍☠️ Chip Decapping & Microprobing
+- [**Chemical Decapping Kits**](https://www.micross.com/products/services/die-processing/decapsulation.aspx) – Removes IC protective layers.
+- [**FIB (Focused Ion Beam) Tools**](https://www.zeiss.com/microscopy/en/products/fib-sem.html) – Modifies IC internals.
+- [**Probe Stations**](https://www.signatone.com/) – Allows direct electrical contact with microchips.
+
+## 📡 RFID/NFC Cloning & Attacks
+- [**Proxmark3**](https://proxmark.com/) – RFID/NFC cloning and hacking device.
+- [**ChameleonMini**](https://github.com/emsec/ChameleonMini) – Open-source NFC emulation tool.
+- [**Flipper Zero**](https://flipperzero.one/) – Multi-tool for RFID, NFC, and other hardware hacking.
+- [**MFCUK**](https://github.com/nfc-tools/mfcuk) – Cracks Mifare Classic RFID cards.
+- [**MFOC**](https://github.com/nfc-tools/mfoc) – Dumps and cracks Mifare Classic keys.
+
+## 🧲 Electromagnetic Attacks & TEMPEST
+- [**TempestSDR**](https://github.com/martinmarinov/TempestSDR) – Reads screen emissions via radio signals.
+- [**Van Eck Phreaking Kits**](https://github.com/van-eck-phreaking) – Exploits electromagnetic leaks.
+- [**USBKill**](https://github.com/hephaest0s/usbkill) – Physically destroys hardware via high-voltage USB.
+
+---
+
 
