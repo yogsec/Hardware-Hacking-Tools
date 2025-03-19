@@ -46,8 +46,6 @@
 
 #🔨 Physical Attacks Toolkit
 
----
-
 ## 🛠️ Side-Channel Attacks & Fault Injection
 - [**ChipWhisperer**](https://newae.com/) – Open-source side-channel analysis and fault injection tool.
 - [**ChipSHOUTER**](https://newae.com/chipshouter/) – Advanced electromagnetic fault injection (EMFI) tool.
@@ -90,7 +88,6 @@
 ---
 
 # Wireless & Radio Hacking Tools
-
 
 ## 📡 Wi-Fi Hacking Tools
 - **[Aircrack-ng](https://www.aircrack-ng.org/)** – Suite for Wi-Fi penetration testing.
@@ -265,4 +262,76 @@
 - **[X-Ray Chip Inspection](https://www.hitachi-hightech.com/)** – Scans chips for hidden implants and modifications.
 
 ---
+
+# ⚡ Power & Battery Attack Tools
+
+### 🔋 1. Power Analysis & Side-Channel Attacks
+- **[ChipWhisperer](https://chipwhisperer.io/)** – Side-channel power analysis and fault injection.
+- **[Riscure Inspector](https://www.riscure.com/security-tools/inspector-sca/)** – Commercial tool for Differential Power Analysis (DPA).
+- **[OpenADC](https://www.newae.com/chipwhisperer/)** – Analog-to-digital converter for power monitoring.
+- **[Kocher’s DPA Toolkit](https://www.cryptography.com/publications/dpa.html)** – Used for differential power analysis.
+- **[Langer EM Probe](https://www.langer-emv.de/en/emc-probes/)** – Captures electromagnetic emissions from chips.
+
+### ⚡ 2. Voltage Fault Injection & Glitching
+- **[ChipSHOUTER](https://www.newae.com/chipshouter/)** – Electromagnetic fault injection (EMFI).
+- **[VoltageGlitcher](https://github.com/astarasikov/VoltageGlitcher)** – Injects voltage glitches to bypass security.
+- **[GlitchKit](https://github.com/gmbnomis/GlitchKit)** – Framework for hardware glitching.
+- **[SPIDriver](https://github.com/robotic-controls/spidriver)** – SPI-based power glitching tool.
+- **[EMFI Kit](https://www.riscure.com/)** – Voltage and electromagnetic fault injection toolkit.
+
+### 🔌 3. Power Consumption & Tampering Attacks
+- **[USBKill](https://github.com/hephaest0s/usbkill)** – Kills power to devices via USB ports.
+- **[Proxmark3](https://github.com/Proxmark/proxmark3/)** – RFID power analysis tool.
+- **[Flipper Zero](https://flipperzero.one/)** – Multi-functional device for power manipulation.
+- **[Lab Power Supplies](https://www.keysight.com/)** – Precision voltage control for attacks.
+- **[Raspberry Pi Pico](https://www.raspberrypi.com/products/raspberry-pi-pico/)** – Can be used for power analysis and manipulation.
+
+### 🔥 4. Battery-Based Attacks
+- **[Supercapacitor Surge](https://www.supercaptech.com/)** – Disrupts devices with sudden power bursts.
+- **[Battery Spoofing](https://www.pentestpartners.com/security-blog/battery-attacks/)** – Modifies power reports to bypass security.
+- **[DC Power Attack](https://www.analog.com/en/technical-articles/dc-power-analysis.html)** – Manipulates voltage to damage components.
+- **[Inductive Coupling](https://www.researchgate.net/publication/Inductive-Power-Analysis)** – Extracts data through power fluctuations.
+- **[Battery Overload](https://www.teardown.com/)** – Overcharges or overheats batteries for attack vectors.
+
+---
+
+# 🏴‍☠️ Supply Chain Attack Tools
+
+### 🔩 1. Hardware Supply Chain Attacks
+- **[NSA Cottonmouth](https://en.wikipedia.org/wiki/Cottonmouth_(exploit))** – Covert USB implant with espionage capabilities.
+- **[NSA IRATEMONK](https://en.wikipedia.org/wiki/Equation_Group)** – Hard drive firmware injection.
+- **[NSA JETPLOW](https://www.schneier.com/blog/archives/2014/03/more_nsa_attacks.html)** – Persistent backdoors in Cisco devices.
+- **[NSA SURLYSPAWN](https://electrospaces.blogspot.com/2015/03/nsas-catalog-of-tools-for-hardware.html)** – Secure chip manipulation.
+- **[NSA FEEDTHROUGH](https://electrospaces.blogspot.com/2015/03/nsas-catalog-of-tools-for-hardware.html)** – BIOS-level malware persistence.
+
+### 🔗 2. Firmware & BIOS Manipulation
+- **[UEFI Implant](https://github.com/chipsec/chipsec)** – UEFI firmware analysis and modification.
+- **[Thunderstrike](https://trmm.net/Thunderstrike/)** – Exploiting MacBook boot ROM.
+- **[BIOS Implant Tools](https://github.com/Cr4sh/BIOS_Intelligence)** – BIOS dumping and modification.
+- **[Coreboot](https://www.coreboot.org/)** – Open-source firmware alternative.
+- **[Heads](https://github.com/osresearch/heads)** – Secure boot with tamper detection.
+
+### 🎭 3. Software Supply Chain Attacks
+- **[Poisoned Dependencies](https://github.com/coinbase/supply-chain-security)** – Detecting malicious npm/PyPI packages.
+- **[Typosquatting Malware](https://typosquatting-tester.readthedocs.io/en/latest/)** – Identifying typo-based dependency attacks.
+- **[Dependency Confusion Attack](https://github.com/visma-prodsec/confused)** – Checking for dependency confusion vulnerabilities.
+- **[BadUSB Firmware](https://github.com/hak5darren/USB-Rubber-Ducky)** – Exploiting firmware on USB devices.
+- **[Firmware Patching](https://github.com/ReFirmLabs/binwalk)** – Extract and modify firmware images.
+
+### 🏗 4. Hardware Implantation
+- **[Rogue Raspberry Pi](https://github.com/xychelsea/Raspberry-Pi-Payloads)** – Concealed MITM attack device.
+- **[Malicious USB Keylogger](https://github.com/hak5darren/USB-Rubber-Ducky)** – USB-based keystroke logging.
+- **[Trojanned ICs](https://www.mitre.org/publications/technical-papers/trust-in-integrated-circuits)** – Compromised microchips.
+- **[Intercepted Shipment Attacks](https://www.schneier.com/blog/archives/2013/12/how_the_nsa_tam.html)** – Tampering with hardware in transit.
+
+### 🛡 5. Detection & Prevention
+- **[SigMF](https://github.com/gnuradio/sigmf-ninja)** – Spectrum analysis to detect implants.
+- **[Osquery](https://osquery.io/)** – Querying firmware for anomalies.
+- **[YARA Rules](https://github.com/VirusTotal/yara)** – Malware detection in software supply chains.
+- **[Binwalk](https://github.com/ReFirmLabs/binwalk)** – Firmware backdoor analysis.
+- **[Firmware Integrity Checker](https://github.com/chipsec/chipsec)** – Comparing firmware to clean versions.
+
+---
+
+
 
