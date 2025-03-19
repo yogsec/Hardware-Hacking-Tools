@@ -46,7 +46,7 @@
 
 ---
 
-#🔨 Physical Attacks Toolkit
+# 🔨 Physical Attacks Toolkit
 
 ## 🛠️ Side-Channel Attacks & Fault Injection
 - [**ChipWhisperer**](https://newae.com/) – Open-source side-channel analysis and fault injection tool.
