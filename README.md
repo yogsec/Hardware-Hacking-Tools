@@ -217,3 +217,52 @@
 
 ---
 
+# 🛠 Hardware Modification & Implantation
+
+### 🏴‍☠️ 1. Hardware Backdoor Implants
+- **[NSA COTTONMOUTH](https://en.wikipedia.org/wiki/ANT_catalog)** – USB implant for covert data exfiltration.
+- **[NSA IRONCHEF](https://www.schneier.com/blog/archives/2013/12/the_nsas_ironch.html)** – Malicious BIOS/firmware modification for persistence.
+- **[NSA DEITYBOUNCE](https://en.wikipedia.org/wiki/ANT_catalog)** – BIOS-level malware for remote access.
+- **[BadUSB](https://github.com/samyk/usbdriveby)** – USB firmware modification for keystroke injection.
+- **[USBNinja](https://usb-ninja.com/)** – Wireless USB payload injector for remote attacks.
+- **[OMG Cable](https://shop.hak5.org/products/omg-cable)** – Malicious USB cable for payload execution.
+
+### 🎛 2. BIOS & Firmware Modification
+- **[Flashrom](https://flashrom.org/)** – Reads, writes, erases, and verifies BIOS firmware.
+- **[UEFI Tool](https://github.com/LongSoft/UEFITool)** – Analyzes and modifies UEFI firmware.
+- **[CH341A Programmer](https://www.aliexpress.com/item/32820954869.html)** – USB flash programmer for BIOS modifications.
+- **[Bus Pirate](http://dangerousprototypes.com/docs/Bus_Pirate)** – SPI/I2C interface for firmware modifications.
+- **[Dediprog SF100](https://www.dediprog.com/products/SF100)** – SPI flash programmer for BIOS recovery.
+- **[Intel ME Cleaner](https://github.com/corna/me_cleaner)** – Disables Intel Management Engine.
+
+### 🔌 3. Hardware Keyloggers & Data Interceptors
+- **[KeyGrabber](https://www.keelog.com/)** – Hardware keylogger that records keystrokes invisibly.
+- **[WiFi Keylogger](https://www.keelog.com/wifi-keylogger/)** – Wirelessly transmits keystroke logs over WiFi.
+- **[USB Keylogger](https://www.keelog.com/usb-keylogger/)** – Plug-and-play keylogger for USB keyboards.
+- **[LAN Tap](https://greatscottgadgets.com/throwingstar/)** – Passive network traffic sniffer.
+- **[PS/2 Hardware Keylogger](https://www.keelog.com/ps2-keylogger/)** – Keystroke logger for older PS/2 keyboards.
+
+### 🔩 4. Covert Implants & Surveillance Devices
+- **[PwnPlug](https://www.pwnieexpress.com/)** – Covert network implant disguised as a power adapter.
+- **[Pwnagotchi](https://pwnagotchi.ai/)** – AI-driven WiFi hacking device.
+- **[HackRF One](https://greatscottgadgets.com/hackrf/)** – Wireless SDR for sniffing and modifying radio signals.
+- **[Flipper Zero](https://flipperzero.one/)** – Multi-functional hacking device for RFID/NFC access.
+- **[NSA RAGEMASTER](https://wikileaks.org/spyfiles/document/National-Security-Agency-NSA-RAGEMASTER-Monitor-Tapping-Hardware-Im-Plant-Description/)** – Covert RF implant that transmits monitor data remotely.
+- **[WiFi Pineapple](https://shop.hak5.org/products/wifi-pineapple)** – Wireless network penetration testing device.
+
+### ⚡ 5. Peripheral Device Hijacking
+- **[USB Rubber Ducky](https://shop.hak5.org/products/usb-rubber-ducky)** – Keystroke injection tool disguised as a USB drive.
+- **[MalDuino](https://malduino.com/)** – Open-source BadUSB keystroke injection tool.
+- **[ESPloitV2](https://github.com/exploitagency/ESPLoiter)** – ESP8266-based WiFi HID attack device.
+- **[MouseJack](https://github.com/BastilleResearch/mousejack)** – Exploits vulnerabilities in wireless mice.
+- **[AirDrive Forensic Keylogger](https://www.keelog.com/airdrive-keylogger/)** – Wireless keylogger with real-time keystroke transmission.
+
+### 🔬 6. Chip-Level Hardware Trojans
+- **[ChipWhisperer](https://chipwhisperer.io/)** – Power analysis and fault injection tool.
+- **[ChipSHOUTER](https://www.newae.com/chipshouter/)** – Electromagnetic fault injection for security bypassing.
+- **[JTAGulator](http://www.grandideastudio.com/jtagulator/)** – Identifies JTAG interfaces on unknown chips.
+- **[GlitchKit](https://github.com/gmbnomis/GlitchKit)** – Firmware glitching and fault injection framework.
+- **[X-Ray Chip Inspection](https://www.hitachi-hightech.com/)** – Scans chips for hidden implants and modifications.
+
+---
+
