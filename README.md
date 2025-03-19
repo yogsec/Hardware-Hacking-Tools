@@ -4,46 +4,43 @@
 
 ---
 
-## 📌 Categories & Tools
-
 ### 1️⃣ Firmware Analysis & Extraction 🖥️
-- **JTAG/SWD Debugging** – JTAGulator, OpenOCD
-- **UART/SPI/I2C Debugging** – Bus Pirate, Logic Analyzers
-- **Firmware Dumping** – CH341A, SPI Flash Reader
-- **Reverse Engineering Firmware** – Ghidra, IDA Pro, Binwalk
 
-### 2️⃣ Physical Attacks 🛠️
-- **Side-Channel Attacks** – ChipWhisperer
-- **Glitching Attacks** – ChipWhisperer, voltage glitchers
-- **Fault Injection** – Laser pulse, voltage spikes
+#### 🛠️ JTAG/SWD Debugging
+- **[JTAGulator](http://www.grandideastudio.com/jtagulator/)** – Identifies JTAG pinouts on embedded devices.
+- **[OpenOCD](http://openocd.org/)** – Open-source debugging and programming tool for embedded devices.
+- **[UrJTAG](http://urjtag.org/)** – Universal JTAG library supporting multiple devices.
+- **[Segger J-Link](https://www.segger.com/products/debug-probes/j-link/)** – A commercial JTAG/SWD debugger with high-speed debugging.
+- **[Xilinx Platform Cable USB II](https://www.xilinx.com/products/boards-and-kits/hw-usb-ii-g.html)** – Used for debugging and programming Xilinx devices.
+- **[STM32 ST-Link](https://www.st.com/en/development-tools/st-link-v2.html)** – Debugging and flashing STM32 microcontrollers.
+- **[Black Magic Probe](https://github.com/blacksphere/blackmagic)** – Open-source JTAG debugger supporting SWD.
 
-### 3️⃣ Wireless & Radio Hacking 📡
-- **RFID/NFC Hacking** – Proxmark3, Flipper Zero
-- **Bluetooth & Wi-Fi Attacks** – Ubertooth One, Wi-Fi Pineapple
-- **Software-Defined Radio (SDR) Attacks** – HackRF One, RTL-SDR
+#### 🔌 UART/SPI/I2C Debugging
+- **[Bus Pirate](http://dangerousprototypes.com/docs/Bus_Pirate)** – Universal interface for SPI, I2C, and UART debugging.
+- **[Logic Analyzers](https://www.saleae.com/)** – Capture and analyze signals (Saleae, Sigrok, etc.).
+- **[FTDI Adapters](https://www.ftdichip.com/)** – Convert USB to UART/SPI/I2C for debugging.
+- **[Beagle I2C/SPI Protocol Analyzer](https://www.totalphase.com/products/beagle-i2cspi/)** – Monitors I2C and SPI traffic.
+- **[TI MSP-FET](https://www.ti.com/tool/MSP-FET)** – Debugger for MSP430 microcontrollers.
 
-### 4️⃣ Chip-Level Attacks 🔬
-- **Decapping Chips** – Acid, laser techniques
-- **Microprobing** – Physical probes under a microscope
-- **Dumping EEPROM/Flash Memory** – EEPROM readers, SPI programmers
+#### 📥 Firmware Dumping
+- **[CH341A Programmer](https://www.aliexpress.com/wholesale?SearchText=CH341A+Programmer)** – Reads and writes SPI flash chips.
+- **[Flashrom](https://flashrom.org/Flashrom)** – Open-source tool for reading, writing, and erasing firmware.
+- **[Dediprog SF100](https://www.dediprog.com/products/SF100)** – High-speed SPI Flash programmer.
+- **[Shikra](https://int3.cc/products/the-shikra)** – Debug and communicate with UART, JTAG, and SPI devices.
+- **[RT809H](https://www.aliexpress.com/wholesale?SearchText=RT809H)** – Universal programmer for dumping firmware from EEPROMs.
+- **[Teensy](https://www.pjrc.com/teensy/)** – Custom DIY method for SPI flash dumping.
 
-### 5️⃣ USB & Peripheral Attacks 🔌
-- **BadUSB Attacks** – Rubber Ducky, MalDuino
-- **HID Spoofing** – Emulated keyboard attacks
-- **Keystroke Logging** – KeyGrabber USB
-
-### 6️⃣ Hardware Modification & Implantation ⚙️
-- **Chip Implants** – Hardware backdoors, spy microcontrollers
-- **Modchip Installation** – Console modchips for running unsigned code
-- **Hardware Trojans** – Malicious circuits in hardware
-
-### 7️⃣ Power & Battery Attacks 🔋
-- **Power Analysis** – Oscilloscopes, power monitors
-- **Battery-Based Exploits** – Smart battery controller manipulation
-
-### 8️⃣ Supply Chain Attacks 📦
-- **Tampering with Devices Before Delivery** – Hardware implants at manufacturing/distribution level
-- **Intercepting Hardware Shipments** – Modifying devices before they reach the target
+#### 📂 Reverse Engineering Firmware
+- **[Ghidra](https://ghidra-sre.org/)** – NSA’s open-source reverse engineering framework.
+- **[IDA Pro](https://hex-rays.com/ida-pro/)** – Industry-standard tool for disassembling firmware binaries.
+- **[Binwalk](https://github.com/ReFirmLabs/binwalk)** – Extracts and analyzes firmware images.
+- **[Firmware-Mod-Kit](https://github.com/rampageX/firmware-mod-kit)** – Extracts and modifies firmware.
+- **[Unblob](https://github.com/onekey-sec/unblob)** – Extracts and analyzes binary blobs.
+- **[GDB (GNU Debugger)](https://www.sourceware.org/gdb/)** – Debugging firmware in real-time.
+- **[Radare2](https://rada.re/n/)** – Open-source framework for binary analysis.
+- **[Capstone](http://www.capstone-engine.org/)** – Disassembly framework for analyzing instruction sets.
+- **[Angr](https://angr.io/)** – Python-based binary analysis tool.
+- **[Cutter](https://cutter.re/)** – GUI-based alternative to Radare2 for reverse engineering.
 
 ---
 
