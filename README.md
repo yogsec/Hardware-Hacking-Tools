@@ -1,5 +1,7 @@
 # 🔧 Hardware Hacking Tools
 
+![Hardware Hacking Tools](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExcXB2M3l1cHFmdXpyaXJldXplOWwwb3E1OXJoMG90ZDFiY2dyeXptMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/z9g6xLr5C0H1m/giphy.gif)
+
 **Hardware Hacking Tools**! 🚀 lists various tools used in hardware hacking, categorized by attack methods. Whether you're a security researcher, penetration tester, or just curious about hardware security, this repo is for you! 🔍💻
 
 ---
